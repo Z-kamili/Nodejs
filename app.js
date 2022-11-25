@@ -3,7 +3,7 @@ const emitter = new EventEmitter();
 
 
 // Register a listener
-emitter.on('messageLogged',(arg) => {
+emitter.on('messageLogged',(arg) => { // e, eventArg
     console.log('Listener called',arg);
 });
 
