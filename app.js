@@ -1,4 +1,10 @@
-const log = require('./logger');
+var msg = require('./os.js');
 
-console.log('message');
+msg();
+
+
+
+
+
+
 
