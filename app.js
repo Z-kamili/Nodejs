@@ -7,7 +7,6 @@ emitter.on('messageLogged',(arg) => { // e, eventArg
 });
 
 const log = require('./logger');
-
 log('message');
 
 
